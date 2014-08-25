@@ -1,0 +1,19 @@
+﻿Build started 2014-08-24 02:43:38.
+     1>Project "c:\Users\DW\documents\visual studio 2013\Projects\OpenGL tut\OpenGL tut\OpenGL tut.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt display.cpp main.cpp mesh.cpp shader.cpp texture.cpp
+         display.cpp
+     1>c:\users\dw\documents\visual studio 2013\projects\opengl tut\opengl tut\display.h(4): fatal error C1083: Cannot open include file: 'SDL\SDL.h': No such file or directory
+         main.cpp
+     1>main.cpp(2): fatal error C1083: Cannot open include file: 'glew\GL\glew.h': No such file or directory
+         mesh.cpp
+     1>c:\users\dw\documents\visual studio 2013\projects\opengl tut\opengl tut\mesh.h(3): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+         shader.cpp
+     1>c:\users\dw\documents\visual studio 2013\projects\opengl tut\opengl tut\shader.h(6): fatal error C1083: Cannot open include file: 'glew\GL\glew.h': No such file or directory
+         texture.cpp
+     1>c:\users\dw\documents\visual studio 2013\projects\opengl tut\opengl tut\texture.h(4): fatal error C1083: Cannot open include file: 'glew\GL\glew.h': No such file or directory
+     1>Done Building Project "c:\Users\DW\documents\visual studio 2013\Projects\OpenGL tut\OpenGL tut\OpenGL tut.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79
